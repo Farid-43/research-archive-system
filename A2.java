@@ -26,6 +26,11 @@ class FullResearchPaper implements ResearchPaper {
         System.out.println();
     }
 
+
+    int getPublicationYear() {
+        return 2000; // update from feature branch
+    }
+
     String getAuthorName() {
         return "Author";    // updated from main
     }
