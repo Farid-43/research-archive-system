@@ -26,6 +26,10 @@ class FullResearchPaper implements ResearchPaper {
         System.out.println();
     }
 
+    String getAuthorName() {
+        return "Author";    // updated from main
+    }
+
 }
 
 class proxy implements ResearchPaper {
